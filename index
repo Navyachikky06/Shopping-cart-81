@@ -32,7 +32,7 @@ login here </a></p>
 <div class ="text-bg-info text-centre">
 <h2> titan watch </h2>
 <p> price:$10 </p>
-<img src="https://tse1.mm.bing.net/th?id=OIP.mMftfnIiZ5skxGM-emCegQHaHa&pid=Api&P=0&h=220"><height="50px></height>"<width='50px'></width>
+<img src="images/WATCH.png"><height="50px></height>"<width='50px'></width>
 <p>100% standard and elegant</p>
 <button class ="add to cart"
 on click = "add to cart('titan WATCH',10)"> ADD TO CART </button>
@@ -40,7 +40,7 @@ on click = "add to cart('titan WATCH',10)"> ADD TO CART </button>
 <div class ="product">
 <h2> nike BAG </H2>
     <P> PRICE:$20 </P>
-    <img src="https://tse3.mm.bing.net/th?id=OIP.YKDtSrOJ3cLBBkrbVpZSawHaHa&pid=Api&P=0&h=220"><height="50px"></height><width="50px"></width>
+    <img src="images/BAG.png"><height="50px"></height><width="50px"></width>
     <p>brand new and latest edition</p>
 <BUTTON CLASS ="add-to-cart" onclick = "add-to-cart('nike BAG',20)"> ADD TO CART </button>
 </div>
