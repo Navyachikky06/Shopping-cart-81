@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<title> shopping cart </title>
+<link ref = "style sheet"href="style.css">
+</head>
+<body>
+<div> <login-section> <class="hidden">
+    <h1><mark>login</mark> </h1>
+<form on submit ="return login">
+<input type ="text"id ="username"
+place holder ="username"required><br>
+<input type ="password"id ="password" place holder ="password"required><br>
+<button type ="submit"> login</button>
+</form>
+<p> don't have an account? <a href="#"
+    onclick ="showregistration()">
+    register here </a></p>
+</div>
+<div class ="text-white text-centre bg-success">
+    <h1><mark>register</mark> </h1>
+    <form on submit ="return.register()">
+<input type ="text",id ="reg username" place holder ="username"required><br>
+<button type ="submit">register </button>
+ </form>
+ <p>already have an account? <a href="#"
+onclick = "showlogin()">
+login here </a></p>
+ </div>
+ <div id ="main-section" class ="hidden">
+<h1><mark>shopping cart</mark> </h1>
+<div class ="products">
+<div class ="text-bg-info text-centre">
+<h2> titan watch </h2>
+<p> price:$10 </p>
+<img src="https://tse1.mm.bing.net/th?id=OIP.mMftfnIiZ5skxGM-emCegQHaHa&pid=Api&P=0&h=220"><height="50px></height>"<width='50px'></width>
+<p>100% standard and elegant</p>
+<button class ="add to cart"
+on click = "add to cart('titan WATCH',10)"> ADD TO CART </button>
+</div>
+<div class ="product">
+<h2> nike BAG </H2>
+    <P> PRICE:$20 </P>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.YKDtSrOJ3cLBBkrbVpZSawHaHa&pid=Api&P=0&h=220"><height="50px"></height><width="50px"></width>
+    <p>brand new and latest edition</p>
+<BUTTON CLASS ="add-to-cart" onclick = "add-to-cart('nike BAG',20)"> ADD TO CART </button>
+</div>
+<div class ="cart">
+<h2> shopping cart </h2>
+<ul id ="cart-items"> </ul>
+<p>total:$<span id ="total"></span>30 </P>
+    <button onclick ="checkout()"> checkout </button>
+</div>
+</div>
+<script src ="script.js"> </script>
+</body>
+</html>
